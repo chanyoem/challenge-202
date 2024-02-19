@@ -6,7 +6,7 @@
 
     width: 100vw;
     height: 100vh;
-    background-color: honeydew;
+    background-color: aliceblue;
     text-align: center;
 }
 
@@ -27,4 +27,20 @@
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.animate_box{
+    animation: animateBox 10s;
+}
+
+@keyframes animateBox {
+    0%{
+        background-color: magenta;
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: blue;
+    }
 }
