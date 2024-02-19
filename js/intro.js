@@ -14,4 +14,8 @@ $(document).ready(function() {
             $(".box").removeClass("animate_box");
         }, 10000);
     });
+
+    $("#name").click(function() {
+        $("#toggle-box").css("border-radius", "50px");
+    });
 });
