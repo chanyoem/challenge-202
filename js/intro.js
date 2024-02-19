@@ -18,4 +18,9 @@ $(document).ready(function() {
     $("#name").click(function() {
         $("#toggle-box").css("border-radius", "50px");
     });
+
+    $("#reset-button").click(function() {
+        $("#toggle-box").css("border-radius", "5px");
+        $("#toggle-box").hide();
+    });
 });

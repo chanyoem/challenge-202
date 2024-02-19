@@ -33,6 +33,15 @@
     animation: animateBox 10s;
 }
 
+.reset{
+    height: 50px;
+    width: 50px;
+    background-color: seagreen;
+    position: absolute;
+    top: 90%;
+    right: 15%;
+}
+
 @keyframes animateBox {
     0%{
         background-color: magenta;
